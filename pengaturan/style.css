@@ -1,0 +1,108 @@
+
+body{
+	font-family: Tahoma;
+  text-align: center; 
+}
+
+#body {
+	background-image: url(../gambar/back.png);
+	background-repeat: no-repeat;
+	position: center;
+	margin-up: 50;
+	margin-right: auto;
+	margin-left: auto;
+	width: 864px;
+	height: 612px;
+	text-align: left;
+
+}
+
+#header {
+	
+	background-image: url(../gambar/header.jpgg);
+	background-repeat: no-repeat;
+		
+	padding-top: 150px;
+	text-align: left;
+}
+
+table {
+	font-family: Tahoma; 
+	font-size: 8pt;
+
+	margin: 10px 0px;
+}
+
+#content {
+	top:200;
+	margin-left: 310px;
+	padding: 20px 10px 0 0;
+}
+#content p {
+	font-size: 75%;
+	line-height: 1.8em;
+	padding-left: 2em;
+}
+#menu {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	width: 180px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	width: 180px;
+	border-bottom: 1px solid #969BA5;
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	vertical-align: bottom; 
+}
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #283f08;
+	border-right: 1px solid #283f08;
+	background-color: #cfecca;
+	color: #283f08;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #283f08;
+	color: #FFFFFF;
+}
+
+a:link,a:visited {
+  color:#063;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+h2 {
+	font: normal 120% Georgia;
+	color: #283f08;
+	background-color: transparent;
+	border-bottom: 1px dotted #283f08;
+}
+
+input,textarea,select{
+	font-family: Tahoma; 
+	font-size: 8pt;
+}
+#paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+#footer{
+	padding: 20px 0 20px 0px;
+	font-size: 70%;
+	color: #FFFFFF;
+	background-color: #283f08;
+	text-align: center;
+}
